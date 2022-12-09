@@ -24,8 +24,33 @@ body, html {
     grid-row: 1 / 2;
 }
 
+.header-top {
+    display: flex;
+}
+
+.user-photo {
+    width: 50px;
+    height: 51px;
+    border-radius: 50%;
+}
+
+.user-photo-bigger {
+    width: 90px;
+    height: 86px;
+    border-radius: 50%;
+}
+
+
+.header-bottom {
+    display: flex;
+}
+
 .main {
     background-color: beige;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+}
+
+ul {
+    list-style-type: none;
 }
