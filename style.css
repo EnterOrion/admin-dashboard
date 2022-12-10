@@ -92,8 +92,8 @@ button {
     border-radius: 8px;
     overflow: hidden;
     padding: 0.25em 0.6em;
-    outline-color: 
-    #a5b4fc;
+    outline-color: #a5b4fc;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
 }
 
 .button-section {
@@ -189,11 +189,11 @@ ul {
 }
 
 .project5, .project6 {
-    margin-bottom: 65px;
+    margin-bottom: 70px;
 }
 
 .project2 {
-    margin-top: 65px;
+    margin-top: 73px;
 }
 
 .project1 {
@@ -209,19 +209,19 @@ ul {
 
 .main {
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 4fr minmax(350px, 380px);
   }
 
 .announcement-block {
     height: 350px;
-    width: 300px;
+    width: 320px;
     background-color: blanchedalmond;
   
 }
 
 .trending-block {
     height: 300px;
-    width: 300px;
+    width: 320px;
     background-color: blanchedalmond;
 }
 
