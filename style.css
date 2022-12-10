@@ -17,6 +17,11 @@ body, html {
     height: 36px;
 }
 
+.search-logo {
+    width: 24px;
+    height: 24px;
+}
+
 .container {
     display: grid;
     height: 100%;
@@ -37,9 +42,10 @@ body, html {
 }
 
 .header {
-    background-color: lightgray;
+    background-color: #ddd6fe;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
 }
 
 .header-top {
@@ -66,34 +72,43 @@ body, html {
     width: 90px;
     height: 86px;
     border-radius: 50%;
+    border: 1px black solid;
 }
 
 
 button {
     font-family: "Noto Sans";
-    border-radius: 12px;
-    padding: 10px 15px 10px 15px;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
     background-color: #818cf8;
-
+    color:  #eef2ff;
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
 }
 
 .header .header-top .nav-bar input {
     width: 500px;
+    border: 0;
     border-radius: 8px;
+    overflow: hidden;
+    padding: 0.25em 0.6em;
+    outline-color: 
+    #a5b4fc;
 }
 
 .button-section {
+    margin-top: 10px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .nav-bar {
     display: flex;
-    margin-left: 15px;
-    margin-top: 20px;
-    gap: 10px;
+    margin-left: 20px;
+    margin-top: 18px;
+    gap: 5px;
 }
 
 
@@ -106,15 +121,16 @@ button {
 .intro-section {
     display: flex;
     gap: 5px;
-    margin-left: 14px;
+    margin-left: 20px;
     padding-bottom: 10px;
 }
 
 .header-bottom span {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .main {
+    margin-top: 5px;
     background-color: beige;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
@@ -231,4 +247,19 @@ a:hover {
 
 .menu-bottom {
     margin-top: 30px;
+}
+
+#bell-icon {
+    font-size: 18px;
+}
+
+
+#big-header-txt {
+    color: #4338ca;
+    font-weight: 600;
+}
+
+.user-alert #pfp {
+    color: #4338ca;
+    font-weight: 600;
 }
